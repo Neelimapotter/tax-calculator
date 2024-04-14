@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Tax Calculator</title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+      <h2>Tax Calculator</h2>
+      <form id="taxForm">
+        <div class="form-group">
+          <label for="age">Age:</label>
+          <select class="form-control" id="age" required>
+            <option value="">Select Age Group</option>
+            <option value="<40">&lt; 40</option>
+            <option value=">=40&<60">&ge; 40 &lt; 60</option>
+            <option value=">=60">&ge; 60</option>
+          </select>
+          <div class="error-icon" id="ageErrorIcon"></div>
+        </div>
+        <div class="form-group">
+          <label for="income">Gross Annual Income (in Lakhs):</label>
+          <input type="number" class="form-control" id="income" required>
+          <div class="error-icon" id="incomeErrorIcon"></div>
+        </div>
+        <div class="form-group">
+          <label for="extraIncome">Extra Income (in Lakhs):</label>
+          <input type="number" class="form-control" id="extraIncome">
+          <div class="error-icon" id="extraIncomeErrorIcon"></div>
+        </div>
+        <div class="form-group">
+          <label for="deductions">Deductions (in Lakhs):</label>
+          <input type="number" class="form-control" id="deductions">
+          <div class="error-icon" id="deductionsErrorIcon"></div>
+        </div>
+        <button type="submit" class="btn btn-secondary">Calculate Tax</button>
+      </form>
+      <div id="taxOutput"></div>
+    </div>
+    
+  
+  <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+  <script src="Calculator.js"></script>
+</body>
+</html>
