@@ -20,7 +20,7 @@ To run this application locally, you need:
 ## Getting Started
 
 1. Clone this repository to your local machine:
-git clone<https://github.com/Neelimapotter/tax-calculator.git>
+git clone  <https://github.com/Neelimapotter/tax-calculator.git>
 
 3. Open the project folder in your preferred text editor or IDE.
 
