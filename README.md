@@ -20,11 +20,11 @@ To run this application locally, you need:
 ## Getting Started
 
 1. Clone this repository to your local machine:
-git clone <https://github.com/Neelimapotter/tax-calculator.git>
+git clone<https://github.com/Neelimapotter/tax-calculator.git>
 
-2. Open the project folder in your preferred text editor or IDE.
+3. Open the project folder in your preferred text editor or IDE.
 
-3. Open the `index.html` file in a web browser to view the tax calculator.
+4. Open the `index.html` file in a web browser to view the tax calculator.
 
 ## Usage
 
