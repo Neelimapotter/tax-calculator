@@ -37,19 +37,19 @@ git clone <https://github.com/Neelimapotter/tax-calculator.git>
 
 ##### Text calculator
 
-![Tax Calculator](/Tax-Calculator/img/tax-calculators.png) 
+![tax-calculators](https://github.com/Neelimapotter/tax-calculator/assets/130246444/348e219d-8e79-4b28-8191-531a28420f2b)
 
 ##### Test case
 
- ![test-case](/Tax-Calculator/img/test-case.png)
+ ![test-case](https://github.com/Neelimapotter/tax-calculator/assets/130246444/ec9f2000-25bb-4e8b-a7fe-7b41484012b4)
 
 ##### Tooltip
 
-![tooltip](/Tax-Calculator/img/tooltip.png)     
+![tooltip](https://github.com/Neelimapotter/tax-calculator/assets/130246444/f635f12f-284d-4893-b06d-5fa48aa03566)
 
 ##### Error-icon
-
- ![error-icon](/Tax-Calculator/img/error-icons.png)
+ 
+ ![error-icons](https://github.com/Neelimapotter/tax-calculator/assets/130246444/86dd89c0-9adb-4a4c-9f1b-7dc421d9b968)
    
 ## Code Explanation
 HTML (`index.html`): Contains the structure of the tax calculator interface, including form fields for user input and a modal for displaying the tax calculation result.
